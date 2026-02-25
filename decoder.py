@@ -376,8 +376,10 @@ def read_the_sea(map_path="treasure_map.txt"):
         if treasure:
             # grab the first letter of each line and append them list 
             ye_message.append(treasure[0])
-            # join them {no spaces}
-            black_pearls = ye_message.join()
+
+    # join them {no spaces}
+    black_pearls = "".join(ye_message)
+
     # select each line range and remove the commas
     da_real_treasure = black_pearls[0:3] + " " + \
                        black_pearls[3:5] + " " + \
@@ -386,6 +388,7 @@ def read_the_sea(map_path="treasure_map.txt"):
                        black_pearls[14:18] + " " + \
                        black_pearls[18:] + "!!"
     # put the message in hidden treasure
+    hidden_treasure = da_real_treasure
     hidden_treasure = da_real_treasure 
     # something to put the entire HTML inside of
     # ==============HTML ===========================

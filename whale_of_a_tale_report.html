@@ -1,4 +1,5 @@
 
+  
 <!doctype html>
 <html>
 <head>
@@ -7,7 +8,7 @@
 </head>
 <body>
     <h1>Whale of a Tale Report (Captain's Log)</h1>
-    <h3>Ye be wonderin aboat dis matey???</h>
+    <h3>Ye be wonderin aboat dis matey???</h3>
     <ul>
         <li><strong>Vocabulary Size:</strong> 151</li>
         <li><strong>Average Word Length:</strong> 4.57</li>
@@ -15,7 +16,10 @@
         <li><strong>Longest Word:</strong> programmed (length 10)</li>
         <li><strong>Most Frequent Word:</strong> the (appears 17 times)</li>
     </ul>
-    <p onmouseover="this.querySelector('span').hidden=false"
-        onmouseout="this.querySelector('span').hidden=true"><strong>And don't Ye be frettin' Yur Secret Message  :</strong? <span hidden>['T', 'H', 'E', 'A', 'I', 'P', 'R', 'O', 'G', 'R', 'A', 'M', 'A', 'T', 'N', 'S', 'C', 'C', 'R', 'O', 'C', 'K', 'S'] </span> be safe with me</p>
+    <p onmouseover="this.querySelector('.secret').style.display='inline'"
+       onmouseout="this.querySelector('.secret').style.display='none'">
+       <strong>And don't Ye be frettin' Yur Secret Message : </strong>
+       <span class="secret" hidden style="color:red;">THE AI PROGRAM AT NSCC ROCKS!!</span> be safe with me
+    </p>
 </body>
 </html>
