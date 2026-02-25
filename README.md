@@ -1,5 +1,5 @@
 # python-algorithms-games-text-analytics
-Objective
+# Objective
 
 The objective of this project was to strengthen my foundational Python programming skills by building a multi-module command-line application that demonstrates string manipulation, algorithm design, text analysis, and interactive game logic.
 
